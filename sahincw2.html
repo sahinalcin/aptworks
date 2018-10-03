@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!-- Modify or remove all items marked xxx -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sayı arttır yada azalt </title>
+
+<style>
+    #out { /* CSS code used in out */
+        font-size: 18px;
+        background: red;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+</style>
+
+<script>
+"use strict";
+// JavaScript code used in button
+function cnt() {
+    console.log("Counter = "+count); 
+    return count++; 
+}
+function inc() {
+var a=parseInt(document.getElementById('x').value);
+document.getElementById('x').value=a+1;
+}
+function dec() {
+var a=parseInt(document.getElementById('x').value);
+document.getElementById('x').value=a-1;
+}
+</script>
+</head>
+
+<body>
+
+<h2 id=title></h2>
+Sayıyı giriniz
+<br/>
+<input type="text" id="x"/><br/><br/>
+<input type="button" value="Arttır" onclick="inc()"/> 
+<input type="button" value="Azalt" onclick="dec()"/>
+<p id=out></p>
+
+<hr />
+<b>Sample code</b>
+<pre id=sample1></pre>
+<pre id=sample2></pre>
+<hr />
+</p>
+
+<script>
+    //global variable id is the HTML element with id 
+    //const title = document.getElementById("title");
+    title.innerText = document.title;
+    sample1.innerText = inc.toString();
+	sample2.innerText = dec.toString();
+    out.innerHTML = "Şahin Alçın";
+</script>
+
+</body>
+</html>
