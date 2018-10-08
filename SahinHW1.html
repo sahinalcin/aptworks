@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Add Course </title>
+</head>
+
+<script>
+"use strict";
+
+let courses=[];  
+let midterms=[];  
+let finals=[]; 
+
+function add(){
+	let n,m,f;
+	n=inputName.value; m=Number(inputMid.value); f=Number(inputFin.value);
+	courses.push(n); midterms.push(m); finals.push(f);	
+}
+function prt(){
+	let i; o1.innerText=" ";
+	for (i=0;i<courses.length;i++){
+	o1.innerText+=courses[i]+"\t"+midterms[i]+"\t"+finals[i]+"\n";  
+	}
+}
+function avg(){
+	let i,av;o2.innerText=" ";
+	for (i=0;i<courses.length;i++){
+		av=(midterms[i]+finals[i])/2;
+		o2.innerText+=courses[i]+"\t"+av+"\n";  
+	}
+}
+function maxi(){
+	let i,av; o3.innerText=" ";
+	let mav=(midterms[0]+finals[0])/2;
+	let n=courses[0];
+		for (i=0;i<courses.length;i++){
+			av=(midterms[i]+finals[i])/2;
+			if (mav<av){
+				mav=av; n=courses[i];}}
+	o3.innerText=n+"\t"+mav; 
+ }
+</script>
+
+<h2 id=title></h2>
+ 
+Name&emsp;&emsp;<input type=text id=inputName /><br/><br/>  
+Midterm&emsp;<input type=number id=inputMid /><br/><br/>
+Final&emsp;&emsp; <input type=number id=inputFin /><br/>
+
+<p>
+<input type=button value="Add" onClick="add()"/><br/><br/>
+<input type=button value="Print" onClick="prt()"/> &emsp;
+<input type=button value="Avg" onClick="avg()"/>
+<input type=button value="Max" onClick="maxi()"/>
+</p>
+
+<hr />
+<h4>Name&emsp;Midterm Final</h4><p id=o1></p>
+
+<hr/>
+<h4>Name&emsp;Average</h4><p id=o2></p>
+
+<hr />
+<h4>Name&emsp;Max</h4><p id=o3></p>
+
+<script>
+    title.innerText = document.title;
+</script>
+
+</body>
+</html>
