@@ -2,11 +2,12 @@
 
 My BLM305E Advanced Programming Techniques Works
 
-Class Works:
-[CW2](https://sahinalcin.github.io/aptworks/sahincw2)
-[CW3](https://sahinalcin.github.io/aptworks/inspector.html)
+CW#2: [Empty Page](https://sahinalcin.github.io/aptworks/sahincw2)
 
-Homeworks:
-[HW1](https://sahinalcin.github.io/aptworks/SahinHW1)
+HW#1: [Add Course](https://sahinalcin.github.io/aptworks/SahinHW1)
+
+CW#3: [Inspector](https://sahinalcin.github.io/aptworks/inspector.html)
+
+
 
 
