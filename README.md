@@ -10,6 +10,7 @@ CW3: [Inspector](https://sahinalcin.github.io/aptworks/inspector.html)
 
 CW4: [Menu CW4 Inspector](https://sahinalcin.github.io/aptworks/work/index.html)
 
+HW2: [Student Database Queries](https://sahinalcin.github.io/aptworks/HW2/database.html)
 
 
 
