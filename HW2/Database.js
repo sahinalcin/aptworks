@@ -49,7 +49,7 @@ addStudents(txt) {
 }
 
 readCourses() {
-     var url = ""https://sahinalcin.github.io/aptworks/HW2/Courses.txt"
+     var url = "https://sahinalcin.github.io/aptworks/HW2/Courses.txt"
         fetch(url)
         .then(res => res.text()).then(res => [this.addCourses(res)])
 }
