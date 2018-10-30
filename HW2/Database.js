@@ -29,7 +29,7 @@ class Database{
 }
 
 readStudents(){
-var url = "https://sahinalcin.github.io/aptworks/HW2/Students.txt"
+var url = "https://maeyler.github.io/JS/data/Students.txt"
         fetch(url)
         .then(res => res.text()).then(res => [this.addStudents(res)])
 }
@@ -49,7 +49,7 @@ addStudents(txt) {
 }
 
 readCourses() {
-     var url = "https://sahinalcin.github.io/aptworks/HW2/Courses.txt"
+     var url = "https://maeyler.github.io/JS/data/Courses.txt"
         fetch(url)
         .then(res => res.text()).then(res => [this.addCourses(res)])
 }
