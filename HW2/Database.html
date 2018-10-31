@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Student Database Queries</title>
+</head>
+
+<script src="Database.js"> </script>
+<script>let db=new Database();</script>
+
+<h2 id=title></h2>
+<body>
+
+<b>*A random student</b>
+<input type=button value="Show"	 onClick ='db.randomStudent()'/>
+<input type=button value="Clear" onClick ='db.clearOutput()'/>
+
+<hr>
+<p>
+<b>*Number of students above a given GPA</b>
+</p>Input a GPA value: 
+<input type=number id=g >
+<input type=button value="Show"	onClick ='db.aboveGPA(g.value)'/>
+<input type=button value="Clear" onClick ='db.clearOutput()'/>
+</hr>
+
+<hr>
+<p>
+<b>*Courses taken by a given student</b>
+</p>Input a Student ID: 
+<input type=number id=s1 >
+<input type=button value="Show"	onClick ='db.takenCourses(s1.value)'/>
+<input type=button value="Clear" onClick ='db.clearOutput()'/>
+</hr>
+
+<hr>
+<p>
+<b>*Exam schedule for a given student</b>
+<p>Input a Student ID: 
+<input type=number id=s2 >
+<input type=button value="Show"	onClick ='db.examSchedules(s2.value)'>
+<input type=button value="Clear" onClick ='db.clearOutput()'/>
+</hr>
+
+<hr>
+<p>
+<b>*Student list taking a given course</b>
+<p>Input a Course Name: 
+<input type=text id=c >
+<input type=button value="Show"	onClick ='db.courseStudents(c.value)'>
+<input type=button value="Clear" onClick ='db.clearOutput()'/>
+</hr>
+
+<hr>
+<p>
+<b>*Course list for a given exam room</b>
+<p>Input an Exam Room Name: 
+<input type=text id=r1 >
+<input type=button value="Show"	onClick ='db.examroomCourses(r1.value)'>
+<input type=button value="Clear" onClick ='db.clearOutput()'/>
+</hr>
+
+<hr>
+<p>
+<b>*Total number of courses in a given room</b>
+<p>Input an Exam Room Name: 
+<input type=text id=r2 >
+<input type=button value="Show"	onClick ='db.examroomCount(r2.value)'>
+<input type=button value="Clear" onClick ='db.clearOutput()'/>
+</hr>
+
+<hr>
+<b>
+<p id=out >QUERIES OUTPUT</p>
+</b>
+</hr>
+<script>
+    title.innerText = document.title;
+</script>
+
+</body>
+</html>
+
