@@ -78,7 +78,7 @@ aboveGPA(gpa){
 	for(let s of this.students.values())
         	if(s.gpa>gpa)
 		count+=1;
-	out.innerText="NUMBER OF THE STUDENTS ABOVE "+gpa+" GPA: "+count;
+	out.innerText="NUMBER OF THE STUDENTS ABOVE "+gpa+" GPA\n"+count;
 	return out.innerText;
 }
 takenCourses(id){
