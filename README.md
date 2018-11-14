@@ -13,3 +13,5 @@ CW4: [Menu CW4 Inspector](https://sahinalcin.github.io/aptworks/work/index.html)
 HW2: [Student Database Queries](https://sahinalcin.github.io/aptworks/HW2/Database.html)
 
 CW5: [Comparison of Remote and Local Files](https://sahinalcin.github.io/aptworks/CW5/Comparison.html)
+
+CW6: [Comparison of Array and Map Timings](https://sahinalcin.github.io/aptworks/CW6/Timing.html)
