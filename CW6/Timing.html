@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="Database.js"></script>
+    <title>Comparison of Array and Map Timing </title>
+  <script>
+const url = "https://maeyler.github.io/JS/data/";
+const array = [], map = new Map();
+function readData(file) {
+	console.log("readData "+file);
+	fetch(url+file)
+		.then(r => r.text(), console.log)
+		.then(addStudents, console.log);
+}
+function parseStudent(line) {
+	let b = line.split("\t");
+	let id = b[0], name = b[1], gpa = b[2];
+	let std = new Student(id, name, gpa);
+	let list = [];
+	for (let i=3; i<b.length; i++)
+		list.push(b[i]);
+	std.courses = list
+		return std
+  }
+function addStudents(txt) {
+	let msg = "\nData contains ";
+	msg += txt.length+" chars, ";
+	let a = txt.split("\n");
+	msg += a.length+" lines \n";
+	for (let s of a) {
+		let std = parseStudent(s);
+		array.push(std.id); map.set(std.id,std);
+      }
+	msg += array.length+" students, "
+	out.innerText += msg
+  }
+	
+function compare() {
+	let arrayTime=0, countArray=0;
+	let mapTime=0, countMap=0;
+	let i = 0
+	while (i < 10000) {
+		let id = (116690000+Math.floor((Math.random()*1000)+1000)).toString()
+        
+		let at = performance.now();
+		if(array.includes(id)){
+			countArray++;}
+		arrayTime+=performance.now() - at;
+        
+		let mt = performance.now();
+		if(map.has(id)){
+			countMap++;}
+		mapTime+=performance.now()-mt;
+		
+		i++;
+	}
+	let s = "ARRAY : "+arrayTime.toPrecision(3)+" msec found :"+countArray
+	+"\nMAP : "+mapTime.toPrecision(3)+" msec found :"+countMap;
+	out.innerText += "\n"+s; console.log(s);
+}
+
+  </script>
+</head>
+<body>
+<h2 id=title></h2>
+<button onClick='compare()'>Compare</button>
+<p> 
+<b id=out>RESULTS</b>
+</p>
+<hr />
+<script>
+    readData("Students.txt");
+    title.innerText = document.title;
+    sample.innerText = calculateRuntime+"\n"+readData;
+</script>
+
+</body>
+</html>
