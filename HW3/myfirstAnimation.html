@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    
+</head>
+<style>
+p {text-align:center;}
+h1 {color:white;margin:5px;
+	}
+body {background-color:black;}
+	
+#first {  
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	}
+#second {
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	bottom: 0;
+		}
+#star1{
+	width:300px;
+    height: auto;
+    display: table;
+    position: relative;
+    text-align:center;
+    margin:0 auto;
+	}	
+#star2{
+	width:300px;
+    height: auto;
+    display: table;
+    position: relative;
+    text-align:center;
+    margin:0 auto;
+	}
+
+</style>
+<body>
+
+<p>
+<h1>Şahin Alçın
+<button onClick="star1.animate(t1,3000),star2.animate(t2,3000),
+first.animate(t9,3000),second.animate(t10,3000)">Model 1</button>
+
+<button onClick="star1.animate(t3,3000),star2.animate(t4,3000),
+first.animate(t9,3000),second.animate(t10,3000)">Model 2</button>
+
+<button onClick="star1.animate(t5,3000),star2.animate(t6,3000),body.animate(t9,3000)">Model 3</button>
+
+<button onClick="star1.animate(t7,3000),star2.animate(t8,3000),body.animate(t9,3000)">Model 4</button>
+</h1>
+
+</p>
+
+<div id="first">
+	<img id="star1" src="star.png">
+</div>
+<div id="second">
+	<img id="star2" src="star.png">
+</div>
+
+<script>
+"use strict";
+const
+t1 = {transform: ["translateY(0px)", "translateY(-50px)", "translateY(50px)", "translateY(0px)"]},
+t2 = {transform: ["translateY(0px)", "translateY(50px)", "translateY(-50px)", "translateY(0px)"]},
+t3 = {transform: ["translateX(0)", "translateX(300px)", "translateX(0)", "translateX(-300px)","translateX(0)"]},
+t4 = {transform: ["translateX(0)", "translateX(-300px)", "translateX(0)", "translateX(300px)","translateX(0)"]},
+t5 = {width: ["300px", "350px", "400px", "350px", "300px","250px", "200px", "250px", "300px"]},
+t6 = {width: ["300px", "250px", "200px", "250px", "300px","350px", "400px", "350px", "300px"]},
+t7 = {transform: ["rotate(0)", "rotate(90deg)", "rotate(180deg)","rotate(270deg)","rotate(360deg)",
+"rotate(0)", "rotate(90deg)", "rotate(180deg)","rotate(270deg)","rotate(360deg)"]},
+t8 = {transform: ["rotate(360deg)", "rotate(270deg)", "rotate(180deg)","rotate(90deg)","rotate(0)",
+"rotate(360deg)", "rotate(270deg)", "rotate(180deg)","rotate(90deg)","rotate(0)"]},
+t9 = {background: ["red", "blue","red", "blue","red", "blue","red", "blue",
+"red", "blue","red", "blue","red", "blue","red", "blue"]},
+t10 = {background: ["blue", "red","blue", "red","blue", "red","blue", "red",
+"blue", "red","blue", "red","blue", "red","blue", "red"]};
+title.innerText = document.title;
+  
+</script>
+
+</body>
+</html>
