@@ -1,8 +1,8 @@
 {
-  "name": "ŞAHİN ALÇIN CW7",
+  "name": "Sahin ALCIN CW7",
   "start_url": "/aptworks/CW7/table.html",
   "display": "standalone",
-  "background_color": "black",
+  "background_color": "cyan",
   "icons": [
     {
       "src": "JS.png",
