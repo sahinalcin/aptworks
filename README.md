@@ -14,6 +14,8 @@ CW5: [Comparison of Remote and Local Files](https://sahinalcin.github.io/aptwork
 
 CW6: [Comparison of Array and Map Timings](https://sahinalcin.github.io/aptworks/CW6/Timing.html)
 
+CW7: [DOM and PWA work table](https://sahinalcin.github.io/aptworks/CW7/table.html)
+
 # home works
 
 HW1: [Add Course](https://sahinalcin.github.io/aptworks/SahinHW1)
