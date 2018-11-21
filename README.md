@@ -2,7 +2,8 @@
 
 My BLM305E Advanced Programming Techniques Works
 
-# class works
+CLASS WORKS
+
 CW2: [Empty Page](https://sahinalcin.github.io/aptworks/sahincw2)
 
 CW3: [Inspector](https://sahinalcin.github.io/aptworks/inspector.html)
@@ -13,7 +14,8 @@ CW5: [Comparison of Remote and Local Files](https://sahinalcin.github.io/aptwork
 
 CW6: [Comparison of Array and Map Timings](https://sahinalcin.github.io/aptworks/CW6/Timing.html)
 
-# home works
+HOME WORKS
+
 HW1: [Add Course](https://sahinalcin.github.io/aptworks/SahinHW1)
 
 HW2: [Student Database Queries](https://sahinalcin.github.io/aptworks/HW2/Database.html)
