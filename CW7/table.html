@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>DOM and PWA Work Students Table</title>
+<link rel="manifest" href="manifest.json">
+<a href="https://sahinalcin.github.io/aptworks/HW3/myfirstAnimation.html">HW3</a>
+<a href="https://github.com/sahinalcin/aptworks">MY REPO</a>
+<style>
+	h2 {color:blue;text-align:center;}
+    t {border-collapse:collapse;text-align:center;}
+    th {color:red; padding:5px 5px;}
+    td { 
+        border: 1px solid red; 
+        padding: 5px 5px; 
+        text-align: center; 
+    }
+</style>
+</head>
+
+<body>
+<script>
+"use strict";
+const students = [
+    {ID: "213952599", Name: "AYÇA", GPA: 2.15, BirthPlace: "İZMİR"},
+	{ID: "215180773", Name: "ZEYNEP", GPA: 1.09, BirthPlace: "KONYA"},
+	{ID: "214110822", Name: "MERT", GPA: 3.44, BirthPlace: "İSTANBUL"},
+	{ID: "116712218", Name: "İSMAİL", GPA: 1.59, BirthPlace: "SAMSUN"},
+	{ID: "216581030", Name: "RÜMEYSA", GPA: 2.68, BirthPlace: "KONYA"},
+	{ID: "215312260", Name: "MAHİR", GPA: 2.05, BirthPlace: "KASTAMONU"},
+	{ID: "716362035", Name: "HÜSEYİN", GPA: 2.78, BirthPlace: "TUNCELİ"},
+	{ID: "116691957", Name: "ZEYNEP", GPA: 3.15, BirthPlace: "MALATYA"},
+	{ID: "214001184", Name: "KARDELEN", GPA: 2.8, BirthPlace: "İSTANBUL"},
+	{ID: "214960895", Name: "ALİŞAN", GPA: 3.25, BirthPlace: "ANKARA"},
+	{ID: "211642877", Name: "AYSUN", GPA: 1.0, BirthPlace: "ANKARA"},
+	{ID: "212030264", Name: "EMRE", GPA: 3.64, BirthPlace: "İZMİR"},
+	{ID: "213970264", Name: "BÜNYAMİN", GPA: 2.24, BirthPlace: "BURSA"},
+	{ID: "214232755", Name: "ISLOMJON", GPA: 3.14, BirthPlace: "KENYA"},
+	{ID: "211591579", Name: "FEYYAZ", GPA: 2.8, BirthPlace: "İSTANBUL"},
+	{ID: "212972395", Name: "İKBAL", GPA: 1.2, BirthPlace: "ANTALYA"},
+ ];
+function makeRows(a) {
+	let row = "<th></th>";
+	for (let i of Object.keys(a[0]))
+		row += "<th>"+i+"</th>";
+	let text = "<tr>"+row+"</tr>";
+	for (let i=0; i<Object.keys(a).length;i++) {
+	row = "<th>"+(i+1)+"</th>";
+		for(let j of Object.values(a[i]))
+			row += "<td>"+j+"</td>";
+		text += "<tr>"+row+"</tr>";}
+    let s=text.length+" chars";
+    t.innerHTML=text;
+	out.innerText=s; 
+}
+</script>
+<center>
+<h2 id=title></h2>
+<table id="t"></table>
+</center>
+
+<script>
+    title.innerText = document.title;
+    makeRows(students);
+</script>
+
+</body>
+</html> 
