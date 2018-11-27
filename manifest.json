@@ -1,0 +1,20 @@
+{
+  "name": "Sahin Alcin BLM305E Advanced Programming Works",
+  "short_name": "aptworks",
+  "description": "My BLM305E works",
+  "start_url": "/aptworks/index.html",
+  "display": "standalone",
+  "background_color": "gold",
+  "theme_color": "gold",
+  "icons": [
+    {
+      "src": "images/apt192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "images/apt512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
