@@ -23,5 +23,3 @@ HW1: [Add Course](https://sahinalcin.github.io/aptworks/SahinHW1)
 HW2: [Student Database Queries](https://sahinalcin.github.io/aptworks/HW2/Database.html)
 
 HW3: [First CSS Animation](https://sahinalcin.github.io/aptworks/HW3/myfirstAnimation.html)
-
-HW4: [Home Page in PWA](https://sahinalcin.github.io/aptworks/index.html)
