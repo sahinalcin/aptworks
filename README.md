@@ -16,6 +16,8 @@ CW6: [Comparison of Array and Map Timings](https://sahinalcin.github.io/aptworks
 
 CW7: [DOM and PWA work table](https://sahinalcin.github.io/aptworks/CW7/table.html)
 
+CW8: [Promise,Fetch and Cache](https://sahinalcin.github.io/aptworks/CW8/)
+
 # home works
 
 HW1: [Add Course](https://sahinalcin.github.io/aptworks/SahinHW1)
