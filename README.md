@@ -6,9 +6,9 @@ My BLM305E Advanced Programming Techniques Works
 
 CW2: [Empty Page](https://sahinalcin.github.io/aptworks/sahincw2)
 
-CW3: [Inspector](https://sahinalcin.github.io/aptworks/inspector.html)
+CW3: [Result of Modified Analyze Function](https://sahinalcin.github.io/aptworks/inspector.html)
 
-CW4: [Menu CW4 Inspector](https://sahinalcin.github.io/aptworks/work/index.html)
+CW4: [Adding Menu CW4 to Inspector](https://sahinalcin.github.io/aptworks/work/index.html)
 
 CW5: [Comparison of Remote and Local Files](https://sahinalcin.github.io/aptworks/CW5/Comparison.html)
 
