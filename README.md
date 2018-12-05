@@ -18,6 +18,8 @@ CW7: [DOM and PWA work table](https://sahinalcin.github.io/aptworks/CW7/table.ht
 
 CW8: [Cache Fetch Blob](https://sahinalcin.github.io/aptworks/CW8/CW8_ss1.PNG) / [Result](https://sahinalcin.github.io/aptworks/CW8/CW8_ss2.PNG)
 
+CW9: [Change SVG or Canvas](https://sahinalcin.github.io/aptworks/CW9/svg.html)
+
 # home works
 
 HW1: [Add Course](https://sahinalcin.github.io/aptworks/SahinHW1)
