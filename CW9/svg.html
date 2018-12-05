@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>SVG </title>
+
+  <style>
+    svg {
+        background:cyan;
+    }
+	body{text-align:center;background-color:gray;}
+  </style>
+</head>
+
+<body>
+<h2 style="text-align: center; color: #000069;">CHANGE SVG</h2>
+<svg id='svg' width='400' height='200'>
+<circle id=cir cx='100' cy='100' r='40'
+style='fill:yellow;stroke:blue;stroke-width:4' />
+<rect id=rect x='200' y='60' width='100' height='80'
+style='fill:pink;stroke:red;stroke-width:5' />
+</svg>
+
+<p>
+<b>SELECTION MENU</b>
+
+<select id =select>
+  <option value="circle">Select Circle</option>
+  <option value="rectangle">Select Rectangle</option>
+</select>
+</p>
+<p>
+<label>Input a new Size: <input id=inputSize type="number"></label>
+<button onclick="Size(inputSize.value)">Create New Size</button>
+</p>
+<p>
+<label>Input X value: <input id=inputX type="number"></label>
+<label>Input Y value: <input id=inputY type="number"></label>
+<button onclick="Place(inputX.value,inputY.value)">Create New Place</button>
+</p>
+<p>
+<label>Input a Strok Value: <input id=inputStrok type="number"></label>
+<button onclick="Stroke(inputStrok.value)">Create New Strok</button>
+</p>
+<input id=selectColor type="color" value="#ff0000">
+<button onclick="Colour(selectColor.value)">Select New Colour</button>
+
+
+<script>
+"use strict";
+function Size(s){
+	let select,circle,rect
+	select= document.getElementById("select")
+	circle= document.getElementById("cir")
+	rect= document.getElementById("rect")
+		if(select.value=="circle") circle.r.baseVal.value=s
+		else rect.width.baseVal.value=s
+	}
+function Place(x,y){
+	let select,circle,rect
+	select= document.getElementById("select")
+	circle= document.getElementById("cir")
+	rect= document.getElementById("rect")
+		if(select.value=="circle"){
+			circle.cx.baseVal.value=x
+			circle.cy.baseVal.value=y}
+		else{
+			rect.x.baseVal.value=x
+			rect.y.baseVal.value=y}	
+}
+function Stroke(s){
+	let select,circle,rect
+	select= document.getElementById("select")
+	circle= document.getElementById("cir")
+	rect= document.getElementById("rect")
+		if(select.value=="circle"){circle.style.strokeWidth=s}
+		else{rect.style.strokeWidth=s}
+}
+function Colour(c){
+	let select,circle,rect
+	select= document.getElementById("select")
+	circle= document.getElementById("cir")
+	rect= document.getElementById("rect")
+		if(select.value=="circle") circle.style.fill=c
+		else rect.style.fill=c
+	}
+</script>
+
+</body>
+</html>
