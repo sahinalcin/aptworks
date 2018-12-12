@@ -29,3 +29,7 @@ HW2: [Student Database Queries](https://sahinalcin.github.io/aptworks/HW2/Databa
 HW3: [First CSS Animation](https://sahinalcin.github.io/aptworks/HW3/myfirstAnimation.html)
 
 HW4: [Home Page in PWA](https://sahinalcin.github.io/aptworks/index.html)
+
+# project
+
+Term Project: [Bilişim Bilgi Yarışması](https://sahinalcin.github.io/aptworks/PROJECT/project.html)
