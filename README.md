@@ -32,4 +32,4 @@ HW4: [Home Page in PWA](https://sahinalcin.github.io/aptworks/index.html)
 
 # project
 
-Term Project: [Bilişim Bilgi Yarışması](https://sahinalcin.github.io/aptworks/PROJECT/MyTermProject.html)
+Term Project: [Informatics Knowledge Game](https://sahinalcin.github.io/aptworks/PROJECT/MyTermProject.html)
