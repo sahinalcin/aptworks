@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+ 
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>BİLİŞİM BİLGİ YARIŞMASI</title>
+	<style>
+h2 {text-align:center;color:white;}
+p{text-align:center;}
+body {
+	background-color:#1F2739; 
+	font-family:arial;
+	color:white;
+	margin: 2em auto 0;
+	max-width: 700px;
+}
+.ds{
+	text-align:center;
+	color:lime;	
+}
+.ks { text-align:center; color:red;}
+.sn { text-align:left; color:white;}
+.a {
+	cursor: pointer;
+	margin-top: 13px;
+	padding: 13px;
+	background:white;;
+	color:#1F2739;
+	text-align:left;
+}
+.b {
+	cursor: pointer;
+	margin-top: 13px;
+	padding: 13px;
+	background:white;;
+	color:#1F2739;
+	text-align:left;
+}
+.c {
+	cursor: pointer;
+	margin-top: 13px;
+	padding: 13px;
+	background:white;;
+	color:#1F2739;
+	text-align:left;
+}
+.d {
+	cursor: pointer;
+	margin-top: 13px;
+	padding: 13px;
+	background:white;;
+	color:#1F2739;
+	text-align:left;
+}
+</style>
+</head>
+
+<script src="yarisma.js"></script>
+<script>let db=new Database();</script>
+
+<body> 
+	<h2>BİLİŞİM BİLGİ YARIŞMASI</h2>
+	<h2>v0.1</h2>
+	<br>	
+	<h4 class="ds">DOĞRU SAYISI:</h4>
+	<h3 class="ks">KALAN SÜRE:</h3>
+	
+	<b>
+	<p class="sn">SORU:</p>
+	<p class="s"></p>
+	<br>
+	<h3 class="a">A) </h3>
+	<h3 class="b">B) </h3>
+	<h3 class="c">C) </h3>
+	<h3 class="d">D) </h3>
+	</b>
+	<br>
+	<p>
+	<input type=button value="BAŞLA" onClick="db.basla()"/>
+	<input type=button value="ÇEKİL" onClick="db.cekil()"/>
+	</p>
+	
+<script>
+    title.innerText = document.title;
+</script>
+
+</body>
+</html>
+
