@@ -1,0 +1,9 @@
+Bilgiye ulaþýlmasýný ve bilginin oluþturulmasýný saðlayan iletiþimi hýzlandýran teknolojilere ne denir?	Teknoloji	Ýletiþim	Biliþim Teknolojileri	Donaným	Biliþim Teknolojileri
+Cep telefonu, tablet, bilgisayar gibi elektronik cihazlarý yöneten en temel yazýlýma ne denir?	Ýþletim sistemi	Uygulama yazýlýmý	Bilgisayar	Patron yazýlým	Ýþletim sistemi
+Tübitak tarafýndan geliþtirilen Türkiye’nin milli iþletim sistemi aþaðýdakilerden hangisidir?	Windows	Android	Pardus	Linux	Pardus
+Aþaðýda verilen lisans türlerinden hangisinin bazý özelliklerini kýsýtlý bir þekilde ücretsiz kullanabiliriz?	Freeware Yazýlým	Demo Yazýlým	Lisanslý Yazlým	Beta Yazýlým	Demo Yazýlým
+Aþaðýdakilerden hangisi programlama dili deðildir?	Java	Python	Linux	ASP.Net	Linux
+Aþaðýdakilerden hangisi bir bulut depolama hizmeti veren servistir?	Youtube	Twitter	Instagram	Google Drive	Google Drive
+F2 tuþunun görevi nedir?	Tam ekran özelliðini aktifleþtirir	Arama penceresini açar	Geniþletme penceresini açar	Seçili dosyanýn adýný deðiþtirmeye izin verir	Seçili dosyanýn adýný deðiþtirmeye izin verir
+Bir resmi, yazýyý veya þekli bilgisayar ortamýna aktarmaya yarayan donanýma ne denir?	CPU	Printer	Modem	Scanner	Scanner
+Kötü amaçlý yazýlýmlarý temizlemek için kullanýlan yazýlýmlara ne denir?	Trojan	Virüs	Malware	Antivirüs	Antivirüs
