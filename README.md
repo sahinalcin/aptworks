@@ -1,12 +1,12 @@
-# aptworks
+## aptworks
 
 My 2018 - 2019 Fall Term BLM305E Advanced Programming Techniques Course Repository
 
-# project
+### Project
 
 Term Project : [Informatics Knowledge Game](https://sahinalcin.github.io/aptworks/PROJECT/MyTermProject.html)
 
-# class works
+### Class Works
 
 CW2 : [Empty Page](https://sahinalcin.github.io/aptworks/sahincw2)
 
@@ -24,7 +24,7 @@ CW8 : [Cache Fetch Blob](https://sahinalcin.github.io/aptworks/CW8/CW8_ss1.PNG) 
 
 CW9 : [Change SVG or Canvas](https://sahinalcin.github.io/aptworks/CW9/svg.html)
 
-# home works
+### Home Works
 
 HW1 : [Add Course](https://sahinalcin.github.io/aptworks/SahinHW1)
 
