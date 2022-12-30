@@ -1,6 +1,6 @@
 # aptworks
 
-My BLM305E Advanced Programming Techniques Works
+My 2018 - 2019 Fall Term BLM305E Advanced Programming Techniques Course Repository
 
 # class works
 
